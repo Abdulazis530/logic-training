@@ -17,4 +17,13 @@ function minimumSwaps(arr) {
 
 }
 
-console.log(minimumSwaps([1, 3, 2, 5, 8, 7]))
+// console.log(minimumSwaps([1, 3, 2, 5, 8, 7]))
+
+var i = 0
+
+function test(a) {
+    return ++a
+}
+test(i)
+
+console.log(i)
